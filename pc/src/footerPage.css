@@ -1,0 +1,45 @@
+
+.footer-bg {
+    width: 100%;
+    background: #000;
+    height: 200px;
+}
+
+.footer-contain {
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-info {
+
+}
+
+.company-info p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.ewm-img {
+    display: flex;
+}
+.ewm-img img {
+    display: block;
+    width: 91px;
+    height: 91px;
+}
+.ewm-img p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+

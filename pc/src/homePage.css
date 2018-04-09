@@ -1,0 +1,331 @@
+
+.menu-bg {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0,0);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index:99;
+}
+
+.logo-bg {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.menu-logo {
+    width: 39px;
+    height: 36px;
+    color: #000;
+    margin-top: 7px;
+}
+
+.logo-name {
+    font-size: 24px;
+    margin-left: 15px;
+    color: #fff;
+}
+.logo-name p{
+    padding: 0 0;
+    margin: 0 0;
+}
+.logo-name .small-name {
+    font-size: 13px;
+}
+
+.menu-nav {
+    list-style: none;
+    padding: 0 0 ;
+    margin: 0 0;
+    margin-right: 20px;
+    display: flex
+}
+.menu-nav li a {
+    color: #fff;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+/*banner*/
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 110px;
+    display: flex;
+}
+
+.mask {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+}
+
+.banner-ewm {
+    width: 110px;
+    height: 110px;
+    margin-top: 90px;
+}
+
+.banner-text {
+    color: #fff;
+    writing-mode: vertical-rl;
+    text-indent: -2rem;
+    font-size: 42px;
+    font-family: "宋体";
+    line-height: 80px;
+    letter-spacing: 10px;
+    margin-top: 90px;
+
+}
+
+.ewm-bg {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    margin-left: 50px;
+
+}
+
+.ewm-text {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 0;
+    text-align: center;
+    margin:10px 0;
+
+}
+
+/*优质匠人*/
+.contain {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0 100px 0;
+}
+
+.artist-title {
+    font-size: 28px;
+    text-align: center;
+    font-family: '黑体';
+    letter-spacing: 10px;
+}
+
+.artist-title span {
+    color: #846650;
+}
+
+.artist-contain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.artist-text {
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    line-height: 50px;
+    font-family: "宋体";
+    letter-spacing: 10px;
+}
+
+.artist-text1 {
+    color: #62452f;
+    font-size: 20px;
+    display: block;
+    border: #846650 1px solid;
+    width: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    letter-spacing: 10px;
+    padding-top: 10px;
+    height: 130px;
+    margin-left: 50px;
+
+}
+
+.artist-list {
+    display: flex;
+    justify-content: space-around;
+}
+.artist-list li {
+    width: 250px;
+
+}
+.artist-list-title {
+    font-size: 22px;
+    color: #62452f;
+    text-align: center;
+    font-family: "宋体";
+    margin: 20px auto;
+}
+.artist-list-content {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 33px;
+}
+
+/*兴趣部落*/
+.interest-contain {
+    width: 100%;
+    background: #f3f3f3;
+}
+
+.switch {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.switch-list li {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #846650;
+    justify-content: center;
+}
+
+.switch-list li:hover,.switch-list li.on {
+    background: rgba(132, 102, 80, 0.5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.switch-list li .switch-icon {
+    width: 30px;
+    color: #846650;
+}
+.switch-contain {
+    overflow: hidden;
+    display: block;
+}
+.switch-img-bg {
+    width: 335px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-left: 100px;
+    margin-right: 80px;
+    float: left;
+}
+
+.switch-img-bg img {
+    width: 100%;
+}
+
+.switch-text {
+    width: 300px;
+    float: left;
+    margin-top: 60px;
+}
+
+.switch-title {
+    font-size: 22px;
+    color: #62452f;
+    font-family: "宋体";
+}
+
+.switch-content {
+    font-size: 16px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+.join-text {
+    text-align: center;
+    font-size: 18px;
+    color: #846650;
+    letter-spacing: 6px;
+    padding-top: 50px;
+    margin: 0 0;
+}
+
+.goods-title {color: #fff;}
+
+.no-display {display: none}
+
+
+/*匠心美物*/
+.goods-contain {
+    width: 100%;
+    background: #000;
+}
+
+.goods-text {
+    color: #fff;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 35px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.goods-img-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.goods-img-list li {
+    width: 25%;
+    display: block;
+    position: relative;
+}
+
+.goods-img-list li img {
+    width: 100%;
+    display: block;
+}
+
+.img-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+    display: flex;
+    opacity: 0;
+
+}
+
+.goods-img-list li:hover .img-hover {
+    opacity: 1;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+}
+
+
+
+
+
+

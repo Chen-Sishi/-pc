@@ -1,0 +1,165 @@
+.us-bg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.us-title, .think-title {
+    font-size: 36px;
+    color: #62452f;
+    font-family: "宋体";
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 0 0;
+    padding: 0 0;
+    margin-bottom: 40px;
+}
+
+.us-title:after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background: #62452f;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.us-img {
+    width: 470px;
+    height: 247px;
+
+}
+
+.us-text {
+    font-size: 16px;
+    line-height: 40px;
+    width: 390px;
+}
+
+.us-text p {
+    padding: 0 0;
+    margin: 0 auto;
+}
+
+.us-text p:first-child {
+    margin-bottom: 54px;
+}
+
+.title2 {
+    font-size: 16px;
+    margin: 0 0;
+    padding: 0 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.us-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.us-list li {
+    width: 360px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 55px;
+}
+
+.us-list li img {
+    margin-bottom: 35px;
+    width: 100%;
+    display: block;
+}
+
+.us-list li p {
+    margin: 0 0;
+    padding: 0 0;
+    margin-bottom: 10px;
+}
+
+.us-list li span {
+    color: #846650;
+}
+
+.us-artists {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 205px;
+
+}
+
+.us-artists li {
+    width: 196px;
+    height: 196px;
+}
+
+.us-think {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 120px;
+}
+
+.us-think li {
+    width: 425px;
+    margin: 20px 0;
+}
+
+.us-think li p {
+    font-size: 22px;
+    color: #62452f;
+    text-align: center;
+
+}
+
+.us-think li span {
+    font-size: 16px;
+    line-height: 33px;
+    text-align: left;
+}
+
+.think-contain {
+    display: flex;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.think-contain img {
+    width: 423px;
+}
+
+.think-text {
+    width: 410px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.contact {
+    font-size: 16px;
+    line-height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    position: relative;
+}
+.contact:before {
+    content: "";
+    height: 59px;
+    width: 1px;
+    background: #846650;
+    position: absolute;
+    margin-left: -250px;
+}
+
+
+.banner-text span {
+    font-size: 20px;
+    display: block;
+    margin-top: 108px;
+}
+
+
